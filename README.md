@@ -8,4 +8,6 @@ you can yse this script containing using the _`Master - Slave`_ Schemas
 
 When the batch file of the Master is launched, it the specified database is dumped and sent to the Slave. the Slave save the file and update his repliication of the database,  by executin the SQL script contained in the file that he saved.
 
-You can change the directory of the sa
+You can change the directory of the saved database on the slave and the directory of the backup on the master.
+
+## NOTE: you must install 7-zip on the local server to generate the zipped file of the backup 
