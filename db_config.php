@@ -3,7 +3,7 @@
 function get_db_connexion(string $db_name)
 {
 	$dbhost = 'localhost';
-	$dbname = $db_name | 'togetsuite_bar';
+	$dbname = $db_name;
 	$dbuser = 'root';
 	$dbpswd = '';
 

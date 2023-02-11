@@ -1,5 +1,14 @@
 @echo off
 
+:: Just update the 2 first
+::the adress of the lerver
+set server="complexe-larona.togettech.co/remote_server.php"
+
+:: The name of the database we want to dump
+set db=syjmmznh_larona
+
+
+
 :: the database token for access
 set dbUser=root
 set dbPassword=""
@@ -10,14 +19,12 @@ set backupDir="C:\Localhost_MySQL_Backup"
 :: 
 set mysqldump="C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqldump.exe"
 set mysqlDataDir="C:\laragon\data\mysql"
-set zip="C:\Program Files\7-Zip\7z.exe"
+set zip="C:\laragon\bin\7-Zip\7z.exe"
 
-:: The name of the database we want to dump
-set db=togetsuite_bar
+
 :: The loaction to the curl application stored on windows
 set curl="C:\Windows\System32\curl.exe"
-::the adress of the lerver
-set server="localhost/db_dump/remote_server.php"
+
 
 
 :: get date
